@@ -345,6 +345,7 @@ Link: https://vietjack.com/
 + Một tài khoản trên máy chủ Linux sẽ được tạo cho mỗi học sinh
 ### 7. Hệ thống tệp Linux
 ![image](https://github.com/user-attachments/assets/20fee06d-7da8-4272-a285-d501a3afaa08)
+
 ![image](https://github.com/user-attachments/assets/48eeab35-b184-4801-bdda-6de94420bcec)
 ### 8. Tên đường dẫn Linux
 ![image](https://github.com/user-attachments/assets/c813ba0b-84b6-4be4-b193-f7f416328d02)
