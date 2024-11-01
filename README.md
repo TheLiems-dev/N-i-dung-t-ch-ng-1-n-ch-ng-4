@@ -145,5 +145,293 @@ nhớ)
 - Thực hiện phép cộng với số hù 2 của số trừ
 - X – Y = X + (bù 2 của Y) = X + (-Y)
 # Chương 3: Kỹ năng sử dụng máy tính
-## 1. Khái niệm Tập tin và Thư mục
+## I. Quản lý Tập tin và Thư mục với máy tính cá nhân.
+### 1. Khái niệm Tập tin và Thư mục
 ![image](https://github.com/user-attachments/assets/1f405b0c-dcca-45e3-bbd3-03daa1940b15)
+- Tập tin: một đơn vị lưu trữ dữ liệu ở các dạng khác nhau (text, audio, image, …), các chương trình máy tính có thể đọc thông tin từ file hoặc ghi thông tin vào một file.
++ Mỗi tập tin có phần tên và mở rộng: bai_tap.pdf, bai_tap.txt, bai_tap.docx, …
++ Mỗi tập tin có một dung lượng xác định.
++ Người dùng có thể sử dụng các chương trình khác nhau để tạo, chỉnh sửa, sao chép, và xoá tập tin.
+- Thư mục: là một đơn vị logic dùng để nhóm, tổ chức và chứa các tập tin mới mục đích khác nhau.
++ Thư mục có thể chứa nhiều thư mục con khác nhau
++ Thư mục thường được đặt tên theo nội dung hoặc mục đích sử dụng
+- Quản lý dữ liệu hiệu quả phục phụ việc tìm kiếm và truy cập dễ dàng
+- Tổ chức công việc: phân loại, đặt tên tập tin và thư mục theo mục đích hặc theo dự án
+- Đặt tên file và thư mục sử dụng chữ viết thường tránh nhầm lẫn giữa chữ hoa và chữ thường
+- Tránh sử dụng ký tự đặc biệt (?, /, *, <, “, >, |, …) trong việc đặt tên các file và thư mục
+### 2. Cấu trúc cây thư mục.
+![image](https://github.com/user-attachments/assets/22dcaf35-53a3-4a71-b135-07357c6ef54b)
+- Các tập tin và thư mục thường được tổ chức theo dạng phân cấp giống hình cây: thư mục gốc, và các thư mục con
+- Đường dẫn (Path name): là chuỗi ký tự mô tả vị trí của tập tin hoặc thư mục trong một hệ thống máy tính
+- Đường dẫn (Path name): là chuỗi ký tự mô tả vị trí của tập tin hoặc thư mục trong một hệ thống máy tính
+- Windows:
++ Bắt đầu bằng ký hiệu của ổ đĩa (C:\)
++ Các thư mục bên trong đường dẫn dược biểu thị bằng “\”
++ Thư mục hoặc tập tin cuối cùng là vị trí được truy cập
++ VD: C:\Users\Guner\Document
+- Đường dẫn (Path name): là chuỗi ký tự mô tả vị trí của tập tin hoặc thư mục trong một hệ thống máy tính
+- Linux/MacOS/Unix:
++ Bắt đầu từ thư mục gốc “/”
++ Các thư mục bên trong đường dẫn dược biểu thị bằng “/”
++ Thư mục hoặc tập tin cuối cùng là vị trí được truy cập
++ VD: /home/lam/Applications/Chrome
+### 3. Phân loại đường dẫn
+- Đường dẫn tuyệt đối (obsolute path):
++ Chỉ rõ vị chí chính xác của tập tin hoặc thư mục từ thư mục gốc
++ Không phụ thuộc vào vị trí thư mục hiện tại
++ Ví dụ:
+++ Windows: C:\Program Files\MyApp\app.exe
+++ Unix, MacOS, Linux: /usr/local/bin/my_script.sh
+- Đường dẫn tương đối (relative path)
++ Chỉ vị trí “tương đối” của tập tin / thư mục từ thư mục hiện tại
++ Dấu “.” đại điện cho thư mục hiện hành, “..” đại diện cho thư mục cha
++ Ví dụ: ../../home/my_directory
+#### Activity 1: Xác định đường dẫn 
+![image](https://github.com/user-attachments/assets/feeaee9a-c99f-4795-a276-ad4919df5372)
+-  Sử dụng cấu trúc cây thư mục như hình vẽ
++ Xác định đường dẫn tuyệt đối đến thư mục X11
++ Đứng trong thư mục home, chỉ đường dẫn đến thư mục gốc
++ Đứng ở thư mục home, chỉ đường dẫn tương đối đến thư mục run
++ Chỉ đường dẫn tuyệt đối đến hai thư mục misc
+#### Activity 2: Giới thiệu File Explorer
+- Các thành phần của File Explorer: thanh địa chỉ, thanh tìm kiếm, thanh menu, …
+- Truy cập vào ổ đĩa và thư mục
+- Di chuyển đến ổ đĩa và thư mục khác nhau
+- Các thành phần chính của File Explorer
+- Tạo thư mục mới: nhấp chuột phải -> New -> Folder hoặc Ctrl+Shift+N
+- Tạo tập tin mới bằng Word, Excel, hoặc Notepad…
+- Đổi tên tập tin và thư mục
+- Cách sao chép và di chuyển tập tin và thư mục
+- Xoá tập tin và thư mục
+- Tìm kiếm tập tin.
+## II. Quản lý Tập tin và Thư mục với Google Drive.
+### 1. Google drive.
+- Dịch vụ điện toán đám mây (cloud computing) : là các dịch vụ công nghệ thông tin (máy chủ, lưu trữ, mạng, phần mềm, …) được cung cấp thông qua Internet.
+-	Google Drive là dịch vụ miễn phí: dịch vụ lưu trữ, phần mềm xử lý văn bản (doc), xử lý số liệu (sheet), … với định hướng hỗ trợ người dùng nâng cao hiệu quả hợp tác.
+-	Người dùng có thể truy cập dữ liệu mọi lúc mọi nơi, trên nhiều thiết bị (Web browser, Drive Apps)
+- Hỗ trợ việc làm việc chung cho nhóm người dùng
+- Tự động lưu trữ dữ liệu và lịch sử chỉnh sửa của files
+- Chia sẻ dữ liệu dễ dàng, an toàn với khả năng bảo mật cao
+### 2. Truy cập Google drive. 
+![image](https://github.com/user-attachments/assets/a81a53d8-0657-4545-99fc-ed190778c545)
+
+- Google Drive là dịch vụ miễn phí cho phép lưu
+trữ các dữ liệu online, cho phép sử dụng các ứng dụng web trên nhiều thiết bị khác nhau để truy cập.
+- Mở trình duyệt web và login vào tài khoản Google
+- Sử dụng tượng như hình vẽ để vào Google Drive hoặc sử dụng link: http://drive.google.com
+- Google Drive Cung cấp một số dịch vụ cơ bản trong xử lý files.
+![image](https://github.com/user-attachments/assets/5dfdd807-ec5c-4aa6-8401-9aeb5ebdf168)
+### 3. Tạo tệp tin và thư mục trên Google Drive.
+- TTrong Google drive chọn nút New sau đó chọn Folder hoặc file bạn muốn tạo
+![image](https://github.com/user-attachments/assets/fdab56c8-d7e3-4af5-b515-196545ab767a)
+![image](https://github.com/user-attachments/assets/d47cfe48-528a-400d-9cca-15ae89c32e6c)
+#### Activity 3: Demo sử tạo files và thư mục.
+- Tạo một cây thư mục cho một dự án
+-	Tạo và soản thảo văn bản Với Google Doc (sử dụng template Resume cho sv viết CV)
+- Tạo một bảng tính với Google Sheet
+- Tạo một bài Trình bày ngắn với Google Presentation
+- Tạo một bảng survey với Google Form
+### 4. Chia sẻ tập tin và thư mục.
+- Google Drive cho phép chia sẻ tập tin với quyền view hoặc edit các nhóm người dùng xác định.
+ ![image](https://github.com/user-attachments/assets/d4ff3222-de23-4dc8-a54a-a955710af494)
+ ![image](https://github.com/user-attachments/assets/b9b9e85a-ac9a-4192-b80a-123d93082bce)
+#### Activity 4: Chia sẻ file.
+- Tạo một file CV và chia sẻ với tất cả các thành viên Phenikaa University
+-	Chia sẻ với người dung bên ngoài với quyền view CV của mình
+![image](https://github.com/user-attachments/assets/3bd4d4d7-9509-40e4-8070-e4ff2a998e5b)
+## III. Tìm kiếm thông tin với Google Search.
+### 1. Google Search.
+- Tìm kiếm các thông tin trên Internet: nguồn thông tin khổng lồ với hàng tỷ trang web
+-	Công cụ tìm kiếm (Search Engine) cho phép tìm kiếm các nội dung theo một nhu cầu nào đó (truy vấn và tìm kiếm) từ cơ sử dữ liệu chứa các trang web
+-	Google Search sử dụng phần mềm crawlers để lấy các trang web và lưu về cơ sở dữ liệu của mình (index)
+-	Google search hoạt động dựa trên 3 giai đoạn:
++ Crawling: download văn bản, hình ảnh, video, … từ các trang web được tìm thấy một cách tự động
++ Indexing: Google phân tích các tập tin văn bản, hình ảnh, video và lưu trữ vào
++ Google Index (cơ sở dữ liệu lớn)
++ Serving search results: khi người dùng tìm kiếm trên Google, Google sẽ trả lại thông tin tương ứng với truy vấn
+### 2. Sử dụng từ khóa hiệu quả.
+- Xác định rõ mục tiêu tìm kiếm: tự đặt câu hỏi và sử dụng các từ khóa liên quan đến câu trả lời bạn mong muốn
+- Sử dụng từ khóa cụ thể: tránh sử dụng từ khóa chung chung. VD thay vì tìm “điện thoại” -> “”điện thoại Samsung Galaxy S21”
+- Sử dụng cụm từ mô tả thay vì một từ đơn lẻ: “Windows 10 lỗi” -> “hướng dẫn sửa lỗi windows 10 không khởi động dược”
+- Sử dụng dấu nháy kép để tìm kiếm chính xác cụm từ
+- Sử dụng ký hiệu loại trừ “-”
+- Đặt câu hỏi trực tiếp: Google có thể hiểu câu hỏi dưới dạng ngôn ngữ tự nhiên
+### 3. Sử dụng tìm kiếm nâng cao
+![image](https://github.com/user-attachments/assets/cb022e51-c557-4c78-b613-38078cf4875a)
+![image](https://github.com/user-attachments/assets/eb975b7a-97d1-4068-b326-375fb8d623c6)
+#### Activity 5: Tìm phương án sửa lỗi code
+![image](https://github.com/user-attachments/assets/279d6ef5-960e-4987-8f8a-7b847c37c915)
+![image](https://github.com/user-attachments/assets/84624037-57ae-4905-aaa4-3bf393bd14f0)
+## IV. Giới thiệu Generative AI và ChatGPT
+### 1. Generative AI
+- Generative AI (AI tạo sinh) là thuật toán trí tuệ nhân tạo được huấn luyện trên một lượng lớn dữ liệu để có thể tạo ra nội dung như văn bản, hình ảnh hoặc âm thanh.
+-	ChatGPT (Generative Pre-trained Transformer) là một mô hình AI tạo sinh có thể hiểu và phản hồi các câu hỏi của con người băng ngôn ngữ tự nhiên.
+![image](https://github.com/user-attachments/assets/9cfc419b-26c7-474d-8171-4dbeed45e5fd)
+#### Activity 6: Bắt đầu sử dụng ChatGPT.
+![image](https://github.com/user-attachments/assets/e88785a8-6321-4560-a890-67fe87844a4e)
+- Lựa chọn mô hình GPT và thử làm việc với ChatGPT bằng việc cung cấp ngữ cảnh và câu hỏi cho ChatGPT ( https://chatgpt.com/ )
+### 2. Prompt Engineering
+- Prompt Engineering: là kỹ thuật đưa ra các câu hỏi hoặc chỉ dẫn cùng với ngữ cảnh để giúp Generative AI có thể đưa ra câu trả lời chính xác và hữu ích hơn
+-	Ứng dụng trong học tập: gợi ý trả lời một số câu hỏi, giải thích các khái nhiệm, tóm tắt văn tài liệu, giải thích codes, debug, …
+- Các kỹ thuật Prompting: Zero-shot, Few-shot, Chain-of-Thought.
+### 3. Zero-shot Prompting.
+- Đưa ra các câu hỏi đơn giản và không cần ví dụ hoặc ngữ cảnh
+- Ví dụ: “Giải thích khái niệm thuật toán Dịjkstra trong 5 câu”
+-	Lợi ích: Giúp sinh viên có được gợi ý câu trả lời trực tiếp và nhanh chóng.
+### 4. Few-shot Prompting.
+- Cung cấp thêm một số ví dụ, ngữ cảnh để ChatGPT có thể hiểu rõ hơn yêu cầu
+-	Ví dụ: “"Viết code Python để tính tổng của một mảng số nguyên. Đây là ví dụ: [ví dụ code].”
+-	Lợi ích: Giúp tăng độ chính xác trong việc gợi ý câu trả lời cho các bài toán phức tạp.
+### 5. Chain-of-Thought Prompt.
+- Hướng dẫn mô hình suy nghĩ theo từng bước.
+- Ví dụ: "Hãy giải thích từng bước cách thuật toán quicksort hoạt động.”
+- Lợi ích: Hữu ích trong các bài toán yêu cầu suy luận logic.
+-	Chỉnh sửa và thử nghiệm nhiều phiên bản prompting để có được kết quả tối ưu hơn
+### 6. Sử dụng ChatGPT trong học tập.
+- Tóm tắt tài liệu học thuật:Ví dụ: “Tóm tắt bài báo về trí tuệ nhân tạo trong 5 câu.”
+-	Giải bài tập lập trình:Ví dụ: "Viết chương trình Python tính trung bình của một danh sách số."
+- Lợi ích: Giúp sinh viên tiết kiệm thời gian và nắm bắt nhanh kiến thức.
+-	Tìm kiếm thông tin: Hỏi ChatGPT về các khái niệm mới hoặc thuật ngữ phức tạp.
+- Ví dụ: “Giải thích về gradient descent trong học sâu.”
+### 7. Đạo đức sử dụng AI trong học tập.
+- Sử dụng hợp lý: ChatGPT là công cụ hỗ trợ nhằm tăng hiệu quả của việc học tập, không phải là giải pháp cho gian lận.
+- Chịu trách nhiệm với những nội dung được đưa ra khi sử dụng công cụ AI hỗ trợ.
+-	Trách nhiệm kiểm chứng: ChatGPT có thể tạo ra nội dung sai lệch, do đó cần kiểm tra thông tin từ nhiều nguồn.
+# Chương 4: Linux
+## I. Hệ điều hành Linux
+### 1. Hệ điều hành.
+![image](https://github.com/user-attachments/assets/d940b737-bf72-46f2-9a86-8de7e997e708)
+### 2. Tại sao lại nên học Linux.
+![image](https://github.com/user-attachments/assets/9ac376b3-2e1b-4005-8aee-ddfef5a980d8)
+### 3. Lịch sử Linux và Unix.
+#### a) Unix
+- Được phát triển lần đầu tiên vào năm 1969 tại Bell Labs bởi Dennis Ritchie và Ken 	Thompson
++ Nhiều ý tưởng chính vẫn được sử dụng cho đến ngày nay
++ Nhiều người dùng, hệ thống tập tin phân cấp
++ Đã bao gồm tài liệu
+- macOS thực chất là một hệ điều hành Unix ngụy trang!
+#### b). Linux
+Được phát triển vào năm 1992 bởi Linus Torvalds, người cũng đã phát triển git!
+### 4. Bản phân phối Linux.
+- Debian: 
++ Ubuntu (và các dẫn xuất của nó)
++ Linux Mint
++ Kali Linux
++ Linux lite
++ Raspbian
++ Tails OS
++ Knoppix, etc
++ Hệ điều hành dựa trên Debian sử dụng Gói Debian (dpkg) để quản lý phần mềm (.deb), -apt
+- Red Hat Linux: 
++ Red Hat Enterprise Linux (RHEL)
++ Fedora
++ CentOS
++ Linux lite
++ EduLinux
++ Scientific Linux
++ Knoppix, etc
++ Các bản phân phối này sử dụng Redhat Package Manage (.rpm), yum để quản lý phần mềm.
+### 5. Học Linux ở đâu.
+![image](https://github.com/user-attachments/assets/5c9ce688-9349-4e3c-9a62-bf422c639572)
+Link: https://labex.io/courses/linux-basic-commands-practice-online
+![image](https://github.com/user-attachments/assets/08bdd8b4-35eb-4c23-8a0d-cd94dd9974dc)
+Link: https://vietjack.com/
+### 6. Nơi thực hành.
+- Lựa chọn 1: Máy tính trong phòng Lab
++ Sử dụng Virtual Box
+- Lựa chọn 2: Phenikaa Jupyter hub
++ Link: https://jupyter.pail.phenikaa-uni.edu.vn/
++ Đăng nhập bằng Email PU
++ Một tài khoản trên máy chủ Linux sẽ được tạo cho mỗi học sinh
+### 7. Hệ thống tệp Linux
+![image](https://github.com/user-attachments/assets/20fee06d-7da8-4272-a285-d501a3afaa08)
+![image](https://github.com/user-attachments/assets/48eeab35-b184-4801-bdda-6de94420bcec)
+### 8. Tên đường dẫn Linux
+![image](https://github.com/user-attachments/assets/c813ba0b-84b6-4be4-b193-f7f416328d02)
+### 9. Thư mục tương đối.
+![image](https://github.com/user-attachments/assets/9ab2a75f-6f77-4ebf-ad4c-c31e348eee2c)
+### 10. The Shell
+- Shell: Một chương trình tương tác cho phép người dùng tương tác với hệ điều hành và các ứng dụng của nó
+- Tại sao sử dụng shell nhiều hơn so với GUI (Giao
+diện người dùng đồ họa)?
++ Nhiều tác vụ phức tạp dễ thực hiện hơn trên dòng lệnh
++ Hữu ích để làm việc trên các máy chủ từ xa
++ Có thể lập trình
++ Tùy biến
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
