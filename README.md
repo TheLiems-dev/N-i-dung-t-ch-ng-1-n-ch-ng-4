@@ -365,8 +365,114 @@ diện người dùng đồ họa)?
 ++ Kconsole
 ++ xTerm
 ++ Powershell (trong windows )
+![image](https://github.com/user-attachments/assets/fe2babdc-29d0-4abf-997d-69ec3d5a997b)
 ### 11. Cấu trúc dòng lệnh.
-1. Dòng lệnh là cách thích hợp nhất để làm việc với Linux.
+- Dòng lệnh là cách thích hợp nhất để làm việc với Linux.
+![image](https://github.com/user-attachments/assets/0d10257a-cdb2-4d6b-b2f7-30ee10ed3262)
+## II. Làm việc với lệnh Linux. 
+### 1. Lệnh Shell cơ bản
+![image](https://github.com/user-attachments/assets/a1eb1bd2-3427-4ee8-bacb-4b7782332cf0)
+### 2. Lệnh hệ thống. 
+![image](https://github.com/user-attachments/assets/83f09a6d-879f-464a-ac2b-1491f5a8f438)
+### 3. Lệnh thư mục.
+![image](https://github.com/user-attachments/assets/8e0ca24a-7d82-4b1a-b292-27bbf7425558)
+- Liệt kê nội dung của thư mục:
++ ls [-a] [-l] [directory_name]
+- In thư mục làm việc: pwd
+- Thay đổi thư mục làm việc: cd directory_name
+                             E.g. cd /home
+- Tạo thư mục mới:
++ mkdir directory_name
+- Xóa một thư mục:
++ rm -r directory_name
+- Một số ký hiệu đặc biệt:
++ ~ :	Thư mục chính
++ .. : Thư mục mẹ
+### 4. Lệnh tệp
+![image](https://github.com/user-attachments/assets/5b2fe892-cf0b-4c13-ab7a-bab17a1325fc)
+- Hiển thị nội dung tệp:
++ cat filename	or more	filename
+  head filename or tail filename
+- Sao chép (các) tệp hoặc thư mục:
++ cp [-r] source_file destination_file
+- Xóa tệp hoặc thư mục
++ rm –r file_name
+- Di chuyển (đổi tên) (các) tệp/thư mục
++ mv old_path new_path
+### 5. Hệ thống tệp và quyền.
+- Mỗi người dùng có thể sở hữu một hoặc nhiều thư mục / tệp
+- Mỗi người dùng có quyền truy cập khác nhau trong các thư mục / tệp khác nhau
+- Người dùng có thể chia sẻ dữ liệu của họ với nhau
+- Người dùng cũng có thể bảo vệ dữ liệu cá nhân của họ
+![image](https://github.com/user-attachments/assets/4b8f5021-21d5-4dbf-889d-656cf6667cc8)
+![image](https://github.com/user-attachments/assets/58e1a1a3-e455-4108-83be-4d7499c96f52)
+- Truy cập ngay trên thư mục / tệp
+read (r)
+write (w)
+execute (x)
+
+- Mỗi thư mục/file có 9 bit bên phải truy cập, được chia thành 3 nhóm như sau:
++ chủ nhân
++ nhóm (ví dụ: những người trong cùng một nhóm dự án)
++ những người khác (những người trong phạm vi công cộng)![image]
+![image](https://github.com/user-attachments/assets/7466686c-fcdd-4ca8-88a8-0bed2f227ef3)
+### 6. Thay đổi quyền truy cập.
+- Tượng trưng
+chmod	who op mode [-R] file(s)
+- Who:
++ u : owner
++ g : group
++ o : others
++ a : all
+- Mode:
++ r : read w : write
++ x : execute
+- Op:
+   + : grant more rights
+   - : revoke rights
+   = : reset rights
+- Ví dụ:
+![image](https://github.com/user-attachments/assets/5f8b56b4-74da-497d-a115-813652b20556)
+- Số: chmod	xyz [-R] file(s)
++ read = 4 write = 2	execute = 1
+![image](https://github.com/user-attachments/assets/e1ae1d97-0361-4ea6-abe2-6bba65818f8b)
+- Ví dụ: một số quyền truy cập phổ biến của thư mục / (các) tệp
+![image](https://github.com/user-attachments/assets/94063c66-d727-437f-976e-ee9509b095b6)
+- Ví dụ:
+  ![image](https://github.com/user-attachments/assets/f2a83ef3-6cb8-4a9e-8a67-931c80c242a5)
++ -rwxrwxr-x	1	user1	staff	0	Jun	11	11:44	abc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
 
 
 
