@@ -1,4 +1,4 @@
-# N-i-dung-t-ch-ng-1-n-ch-ng-4
+# Nội dung từ chương 1 đến chương 5
 # Chương 1,2: Cơ bản về máy tính và công nghệ thông tin.
 ## Chương 1: Các khái niệm cơ bản. 
 I. Giới thiệu về máy tính. 
