@@ -358,6 +358,16 @@ diện người dùng đồ họa)?
 + Hữu ích để làm việc trên các máy chủ từ xa
 + Có thể lập trình
 + Tùy biến
++ Ví dụ: 
+++ Linux terminal emulator
+++ Gnome-terminal
+++ Kconsole
+++ xTerm
+++ Powershell (trong windows )
+### 11. Cấu trúc dòng lệnh.
+1. Dòng lệnh là cách thích hợp nhất để làm việc với Linux.
+
+
 
 
 
